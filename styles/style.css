@@ -1,6 +1,11 @@
+/*-----HEADER-----*/
+
 body {
     margin-top: 0;
 }
+
+/*-----HEADER-----*/
+
 header {   
     max-width: 1020px;
     height: 63px;
@@ -16,6 +21,7 @@ header {
     top: -15px; 
     position: relative;
 }
+
 .sep_right {
     width: 410px;
     height: 1px;
@@ -24,34 +30,41 @@ header {
     top: -16px; 
     position: relative;
 }
+
 .nav {
     margin: 0 auto;
 }
+
 .menu_1, .menu_2 {
     list-style: none;
     display: flex;
     width: 114px;
     padding-left: 0px;
 }
+
 .navigation {
     display: flex;
     top: -66px;
     position: relative;
 }
+
 .menu_1 {
     position: relative;
     left: 300px; 
     top: -8px;
 }
+
 .menu_2 {
     position: relative;
     left: 465px;
     top: -8px;
 }
+
 .menu_item_1 {
     margin-left: 25px;
     position: relative;
 }
+
 .menu_item_1:after {
     content: '.';
     display: flex;
@@ -66,13 +79,16 @@ header {
     top: -2px;
     margin-left: 11px;
 }
+
 .menu_item_1:last-child:after {
     display: none;
 }
+
 .menu_item_2 {
     margin-right: 25px;
     position: relative;
 }
+
 .menu_item_2:after {
     content: '.';
     display: flex;
@@ -87,9 +103,11 @@ header {
     top: -2px;
     margin-left: 11px;
 }
+
 .menu_item_2:last-child:after {
     display: none;
 }
+
 .menu_link_2 {
     width: 80px;
     height: 8px;
@@ -102,6 +120,7 @@ header {
     display: flex;
     text-decoration: none;
 }
+
 .menu_link {
     height: 8px;
     color: #ffffff;
@@ -113,9 +132,11 @@ header {
     display: flex;
     text-decoration: none;
 }
+
 .menu_link:hover, .menu_link_2:hover {
     color: #2eb398;
 }
+
 .triangle {
     width: 0;
     height: 0;
@@ -125,6 +146,7 @@ header {
     margin: 0 auto;
     position: relative;
 }
+
 .arrow {
     display: flex;
     width: 64px;
@@ -136,14 +158,18 @@ header {
     position: relative;
     z-index: 99;
 }
+
 .project {
     visibility: hidden;
 }
+
 main {
     width: 1020px;
     height: 1062px;
     margin: 0 auto;
 }
+
+/*-----Portfolio-----*/
 
 .portfolio {
     width: 980px;
@@ -152,8 +178,8 @@ main {
     margin-top: 90px;
     position: relative;
     padding-left: 0px;
-
 }
+
 .hexagon-container-1 {
     align-items: center;
     height: 206px;
@@ -161,6 +187,7 @@ main {
     left: 0px;
     position: relative;
 }
+
 .hexagon-container-2 {
     align-items: center;
     height: 206px;
@@ -168,6 +195,7 @@ main {
     left: 0px;
     position: relative;
 }
+
 .hexagon-container-3 {
     align-items: center;
     height: 206px;
@@ -175,6 +203,7 @@ main {
     left: 0px;
     position: relative;
 }
+
 .hexagon_1 {
     width: 180px;
     height: 206px;
@@ -187,6 +216,7 @@ main {
     top: -112px;
     position: relative;
 }
+
 .sep_left_c {
     width: 1px;
     height: 104px;
@@ -200,9 +230,9 @@ main {
     width: 100%;
     height: 100%;
     transform: rotate(-60deg);
-    overflow: hidden;
-    
+    overflow: hidden; 
 }
+
 .hex-layer-2 {
     width: 100%;
     height: 100%;
@@ -215,6 +245,7 @@ main {
     background-position: 100%;
     background-position-y: 20%;
 }
+
 .hex-layer-3 {
     width: 100%;
     height: 100%;
@@ -227,6 +258,7 @@ main {
     background-position: 100%;
     background-position-y: 45%;
 }
+
 .hex-layer-4 {
     width: 100%;
     height: 100%;
@@ -239,6 +271,7 @@ main {
     background-position: 30%;
     background-position-y: 20%;
 }
+
 .hex-layer-5 {
     width: 100%;
     height: 100%;
@@ -251,6 +284,7 @@ main {
     background-position: 49%;
     background-position-y: 120%;
 }
+
 .sep_right_c {
     width: 1px;
     height: 104px;
@@ -259,6 +293,7 @@ main {
     top: -279px;
     right: -900px;
 }
+
 .hexagon_2 {
     width: 180px;
     height: 206px;
@@ -271,9 +306,11 @@ main {
     top: -7px;
     position: relative;
 }
+
 .hexagon-container-2{
     width: 1020px;
 }
+
 .hex-layer-6 {
     width: 100%;
     height: 100%;
@@ -286,6 +323,7 @@ main {
     background-position: 80%;
     background-position-y: 90%;
 }
+
 .hex-layer-7 {
     width: 100%;
     height: 100%;
@@ -298,6 +336,7 @@ main {
     background-position: 80%;
     background-position-y: 60%;
 }
+
 .hex-layer-8 {
     width: 100%;
     height: 100%;
@@ -310,6 +349,7 @@ main {
     background-position: 30%;
     background-position-y: 60%;
 }
+
 .hex-layer-9 {
     width: 100%;
     height: 100%;
@@ -322,6 +362,7 @@ main {
     background-position: 25%;
     background-position-y: 60%;
 }
+
 .hex-layer-10 {
     width: 100%;
     height: 100%;
@@ -334,6 +375,7 @@ main {
     background-position: 20%;
     background-position-y: 60%;
 }
+
 .hexagon_3 {
     width: 180px;
     height: 206px;
@@ -346,6 +388,7 @@ main {
     top: -111px;
     position: relative;
 }
+
 .sep_left_b {
     width: 1px;
     height: 104px;
@@ -354,6 +397,7 @@ main {
     top: 52px;
     left: 79px;
 }
+
 .hex-layer-11 {
     width: 100%;
     height: 100%;
@@ -366,6 +410,7 @@ main {
     background-position: 80%;
     background-position-y: 50%;
 }
+
 .hex-layer-12 {
     width: 100%;
     height: 100%;
@@ -378,6 +423,7 @@ main {
     background-position: 75%;
     background-position-y: 20%;
 }
+
 .hex-layer-13 {
     width: 100%;
     height: 100%;
@@ -390,6 +436,7 @@ main {
     background-position: 30%;
     background-position-y: 20%;
 }
+
 .hex-layer-14 {
     width: 100%;
     height: 100%;
@@ -402,6 +449,7 @@ main {
     background-position: 30%;
     background-position-y: 20%;
 }
+
 .sep_right_b {
     width: 1px;
     height: 104px;
@@ -410,11 +458,15 @@ main {
     top: -278px;
     left: 900px;
 }
+
+/*-----SLIDER-----*/
+
 .slider {
     position: relative;
     margin-top: 60px;
     left: 27px;
 }
+
 .squares {
     display: flex;
     list-style: none;
@@ -425,10 +477,12 @@ main {
     padding-left: 0px;
     left: 2px;
 }
+
 .sqr {
     margin-right: 3px;
     position: relative;
 }
+
 .square_1 {
     display: flex;
     width: 6px;
@@ -437,6 +491,7 @@ main {
     position: relative;
     background-image: url('../assets/images/Rectangle_2.png');
 }
+
 .square_2 {
     display: flex;
     width: 6px;
@@ -445,6 +500,7 @@ main {
     position: relative;
     background-image: url('../assets/images/Rectangle_2_copy_2.png');
 }
+
 .sep_top {
     width: 960px;
     height: 1px;
@@ -453,6 +509,9 @@ main {
     left: 30px;
     margin-top: -5px;
 }
+
+/*-----ABOUT ME-----*/
+
 .about_me {
     width: 1020px;
     height: 327px;
@@ -464,6 +523,7 @@ main {
     background-color: #2eb398;
     display: inline-block;
 }
+
 .sep_left_me {
     width: 1px;
     height: 316px;
@@ -472,6 +532,7 @@ main {
     position: relative;
     float: left;
 }
+
 .hexagon_4 {
     width: 180px;
     height: 206px;
@@ -483,6 +544,7 @@ main {
     position: relative;
     float: left;
 }
+
 .image {
     width: 100%;
     height: 100%;
@@ -495,6 +557,7 @@ main {
     background-position: 49%;
     background-position-y: 300%;
 }
+
 .name {
     width: 217px;
     height: 22px;
@@ -508,6 +571,7 @@ main {
     margin-top: 62px;
     margin-bottom: -3px;
 }
+
 .profession {
     width: 258px;
     height: 17px;
@@ -519,6 +583,7 @@ main {
     position: relative;
     display: flex;
 }
+
 .about_me_text {
     text-align:justify;
     word-spacing: -0.1em;
@@ -544,6 +609,7 @@ main {
     margin-right: 20px;
     margin-top: 38px;
 }
+
 .icon_1 {
     display: flex;
     width: 25px;
@@ -551,6 +617,7 @@ main {
     position: relative;
     background-image: url('../assets/images/Facebook.png');
 }
+
 .icon_2 {
     display: flex;
     width: 24px;
@@ -558,6 +625,7 @@ main {
     position: relative;
     background-image: url('../assets/images/Twitter.png');
 }
+
 .icon_3 {
     display: flex;
     width: 25px;
@@ -565,6 +633,7 @@ main {
     position: relative;
     background-image: url('../assets/images/Google.png');
 }
+
 .icon_4 {
     display: flex;
     width: 24px;
@@ -572,6 +641,7 @@ main {
     position: relative;
     background-image: url('../assets/images/Pinterest.png');
 }
+
 .icon_5 {
     display: flex;
     width: 25px;
@@ -579,6 +649,7 @@ main {
     position: relative;
     background-image: url('../assets/images/Linkedin.png');
 }
+
 .icon_6 {
     display: flex;
     width: 24px;
@@ -586,6 +657,7 @@ main {
     position: relative;
     background-image: url('../assets/images/Dribbble.png');
 }
+
 .sep_right_me {
     width: 1px;
     height: 316px;
@@ -595,28 +667,34 @@ main {
     float: right;
     display: flex;
 }
+
 footer {
     width: 1020px;
     height: 607px;
     margin: -90px auto 0;
     position: relative;
-    
 }
+
+/*-----GET IN TOUCH-----*/
+
 .get_in_touch {
     width: 1020px;
     height: 564px;
     background-color: #323232;
     position: relative;
 }
+
 .copyright {
     width: 1020px;
     height: 43px;
     background-color: #222222;
 }
+
 h2 {
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
 h2 .mediumlt {
     width: 100%;
     height: 17px;
@@ -626,6 +704,7 @@ h2 .mediumlt {
     font-weight: 400;
     line-height: 21.56px;
 }
+
 h2 .biglt {
     display: block;
     width: 100%;
@@ -636,11 +715,13 @@ h2 .biglt {
     font-weight: 400;
     line-height: 19.56px;
 }
+
 .legend {
     position: relative;
     top: 67px;
     left: 121px;
 }
+
 form {
     position: relative;
     top: 5.146em;
@@ -648,14 +729,15 @@ form {
     width: 580px;
     height: 312px;
 }
+
 fieldset {
     border: 0px;
     margin-left: 0px;
     padding: 0px;
     width: 100%;
     height: 100%;
-    
 }
+
 .namearea {
     display: block;
     width: 565px;
@@ -821,6 +903,8 @@ aside {
     text-align: justify;
     padding-left: 40px;
 }
+
+/*-----COPYRIGHT-----*/
 
 .copy {
     padding-top: 12px;
